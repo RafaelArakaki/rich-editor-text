@@ -1,0 +1,14 @@
+.default {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.default:hover {
+  color: var(--base-secondary-gray) !important;
+}
