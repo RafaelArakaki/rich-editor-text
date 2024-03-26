@@ -1,6 +1,7 @@
 
-import { useState } from 'react'
-import TextEditor from './components/TextEditor'
+import { useState } from 'react';
+import TextEditor from './components/TextEditor';
+import styles from './styles.module.css';
 
 function App() {
   const [descriptionText, setDescriptionText] = useState<string>('');
@@ -15,6 +16,9 @@ function App() {
         stateText={descriptionText}
         onChangeText={onChangeDescription}
       />
+      <div className={styles.blackboard}>
+        {descriptionText}
+      </div>
     </div>
   )
 }

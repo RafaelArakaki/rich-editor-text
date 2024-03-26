@@ -12,3 +12,7 @@
 .default:hover {
   color: var(--base-secondary-gray) !important;
 }
+
+.icon {
+  font-size: 20px !important;
+}

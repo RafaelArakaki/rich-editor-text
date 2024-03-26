@@ -1,10 +1,11 @@
 html, body {
+	background: #EEEEEE;
 	width: 100%;
   padding: 0px;
   margin: 0px;
 }
 
-#root {
+#root {	
   width: 100%;
 	padding: 0px;
   margin: 0px;
@@ -14,7 +15,6 @@ html, body {
   width: 90%;
 	padding: 0px;
   margin: 50px auto;
-	display: flex;
 }
 
 .relative {

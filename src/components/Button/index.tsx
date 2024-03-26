@@ -21,7 +21,7 @@ const ButtonEditor: React.FC<ButtonProps> = (props) => {
       className={`${styles.default} ${className}`}
       onClick={() => callbackCommand()}
     >
-      <IconComponent name={iconName} type="sharp" />
+      <IconComponent name={iconName} type="sharp" className={styles.icon} />
     </Button>
   );
 };

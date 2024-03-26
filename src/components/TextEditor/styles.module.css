@@ -1,11 +1,15 @@
 .contentEditable {
   height: 200px;
-  text-align: left;
-  border: 1px solid #d9d9d9;
-  border-radius: 6px;
+  background: #FFFFFF;  
+  border: 1px solid #DDDDDD;
+  border-top: none;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
   overflow: hidden;
-  padding: 60px 20px;
+  padding: 10px 20px;
   outline: none;
+  position: relative;
+  text-align: left;
 }
 
 .contentEditable ul, .contentEditable ol {
@@ -14,16 +18,15 @@
 }
 
 .toolbar {
-  background: #CCCCCC;
-  position: absolute;
-  width: 100%;
+  background: #FFFFFF;  
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   border: none;
+  border: 1px solid #DDDDDD;
 }
 
 .toolbar button {
-  background: #CCCCCC;
+  background: #FFFFFF;
   margin: 10px;
   cursor: pointer;
   padding: 5px;
@@ -31,7 +34,7 @@
 }
 
 .bg_grey {
-  background: #F6F6F6 !important;
+  background: #EEEEEE !important;
 }
 
 .container_editor {
