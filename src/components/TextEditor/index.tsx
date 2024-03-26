@@ -128,7 +128,7 @@ const Toolbar = () => {
       <ButtonEditor
         className={isUnderline ? styles.bg_grey : styles.bg_transparent}
         callbackCommand={() => editor.dispatchCommand(FORMAT_TEXT_COMMAND, 'underline')}
-        iconName="format_underline"
+        iconName="format_underlined"
         dataTestid="button-underline"
       />
       <ButtonEditor
@@ -200,7 +200,7 @@ const TextEditor: React.FC<TextEditorProps> = (props) => {
   };
 
   return (
-    <div className="bg-white relative rounded-sm shadow-sm border border-gray-200">
+    <div className={styles.container_editor}>
       <LexicalComposer initialConfig={initialConfig}>
         <Toolbar />
         <ListPlugin />

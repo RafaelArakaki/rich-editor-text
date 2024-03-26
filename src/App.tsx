@@ -10,12 +10,12 @@ function App() {
   }
 
   return (
-    <>
+    <div className="container">
       <TextEditor
         stateText={descriptionText}
         onChangeText={onChangeDescription}
       />
-    </>
+    </div>
   )
 }
 
